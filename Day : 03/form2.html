@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    This hello button is out of form , so it will not work
+    <button type="submit">hello</button>
+    <hr>
+<!-- form 1 -->
+    <h1>form 1</h1>
+    <form action="/action">
+        <!-- username -->
+        <div>
+            <label >username
+            <input type="text" placeholder="enter your name">
+            </label>
+        </div>
+        <!-- password -->
+        <div>
+            <label for="password">Enter Password :</label>
+            <input type="password" id="password" placeholder="enter your password">
+        </div>
+        <!-- age -->
+        <div>
+            <label for="age">Enter Age :</label>
+             <input type="number" id="age" placeholder="Enter your age">
+        </div>
+        <hr>
+        <!-- buttons -->
+          There 3 types of button : <br>
+            <button>Submit</button> <!-- by default button is submit type -->
+            <button type="reset">reset</button>
+            <button type="button">Button ot Dumy button</button>
+        <hr>
+        <!-- button can also be made with the help of input -->
+        <!-- value is used to change the text on the button -->
+        <div>
+              <input type="submit" value="click me">  
+              <input type="button" value="dumy button">
+              <input type="reset" value="reset">
+        </div>
+        <!-- normal buttons -->
+            <button type="button">hello</button>
+            <button type="reset">reset</button>
+         <br>
+         <!-- id value pair for input text -->
+         
+        <div>
+            <label for="password">password : </label>
+            <input type="password" placeholder="type your password" id="password" name="password">
+        </div>
+         </form>
+        <hr>
+<!-- form 2 -->
+        <h1>form 2</h1>
+        <form action="https://www.youtube.com/results">
+            <input type="text" placeholder="search in youtube"  name="search_query">
+            <button>Search</button>
+        </form>
+          <hr>
+<!-- form 3 -->
+          <h1>form 3</h1>
+        <form action="https://www.google.com/search">
+            <input type="text" placeholder="search in google"  name="q">
+            <button>Search</button>
+        </form>
+        <hr>
+<!-- form 4 -->
+        <h1><u>form 4</u></h1>
+        <form action="/action2" >
+            checkbox : <br>
+            <input type="checkbox" name="age" id="age2" checked>
+            <label for="age2"> i am over 18 years old</label>
+            <br>
+            radio : <br>
+            <div>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </div>
+            multiple checkbox : <br>
+            <div>
+                <input type="checkbox" id="math" name="subjects" value="math">
+                <label for="math">Math</label>
+                <input type="checkbox" id="science" name="subjects" value="science">
+                <label for="science">Science</label>
+                <input type="checkbox" id="english" name="subjects" value="english">
+                <label for="english">English</label>
+            </div>
+            select dropdown : <br>
+            <div>
+                <select name="profession" id="profession">
+                    <option >select profession</option>     <!-- default option as no value -->
+                    <option value="stu">student</option>
+                    <option value="emp">employee</option>   
+                    <option value="dev">developer</option>
+                </select>
+            </div>
+            <br>
+            range slider : <br>
+            <label for="volume">Volume:</label>
+            <input type="range" name="vol" min="0" max="100" id="volume">
+            <br><hr>
+            <label for="volume2">Step range example  : <br>select brightness of device:</label> <br>
+            <!-- step of 10 per increase or decrease -->
+            <input type="range" name="vol2" min="0" max="100" id="volume2" step="10">
+            <br><hr>
+            <!-- default value set to 80 -->
+             default value set to 80 : <br>
+           <input type="range" name="vol2" min="0" max="100" id="volume2" step="10" value="80"> 
+            <button type="submit">Submit</button>
+            <br>
+            textarea : <br>
+            <label for="fedback">Feedback:</label>
+            <textarea name="feed" id="feedback" rows="2" cols="80"></textarea>
+        </form>
+
+   
+</body>
+</html>
