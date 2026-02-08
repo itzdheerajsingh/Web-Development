@@ -1,0 +1,41 @@
+p{
+    color: rgb(100, 110, 196);
+    background-color: beige;
+}
+p1{
+    color: #e823ad;
+    background-color: #00ff00;
+}
+
+p2{
+        color: skyblue;
+        background-color: rgb(255,0,0);
+}
+
+h2{
+    color: orange;
+    border: solid;
+    text-align: center;
+}
+p3{
+    color: white;
+    background-color: #000000;
+
+}
+button{
+    color: white;
+    background-color: blue;
+}
+h3{
+    font-weight: 400;
+    text-decoration: pink wavy underline;
+}
+p4{
+    text-decoration: line-through;
+    letter-spacing: 10px;
+    line-height: 2.5;
+    font-family: didot, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
